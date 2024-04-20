@@ -1,0 +1,33 @@
+[
+  {
+    "id": 2,
+    "login": "Nikita",
+    "password": "a45165325",
+    "story": [
+      {
+        "id": 3,
+        "story": "yfgoooooor"
+      },
+      {
+        "id": 4,
+        "story": "ypiteeeer"
+      },
+      {
+        "id": 5,
+        "story": "ypiteeeer"
+      },
+      {
+        "id": 6,
+        "story": "ypiteeeer"
+      }
+    ],
+    "awatarURL": "1542687023562958"
+  },
+  {
+    "id": 1,
+    "login": "Pavel",
+    "password": "35012",
+    "story": [],
+    "awatarURL": "900732418"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "login": "Aleksandr",
+    "password": "admiral150",
+    "story": [
+      {
+        "id": 1,
+        "story": "Quick and croome"
+      },
+      {
+        "id": 2,
+        "story": "yfgoooooor"
+      }
+    ],
+    "awatarURL": "1542687023562958"
+  },
+  {
+    "id": 2,
+    "login": "Nikita",
+    "password": "a45165325",
+    "story": [
+      {
+        "id": 3,
+        "story": "yfgoooooor"
+      }
+    ],
+    "awatarURL": "1542687023562958"
+  }
+]

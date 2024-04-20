@@ -2,9 +2,9 @@ POST http://localhost:8081/users
 Content-Type: application/json
 
 {
-  "id": 2,
-  "login": "Aleksandr",
-  "password": "admiral150",
+  "id": 1,
+  "login": "Nikita",
+  "password": "a45165325",
   "AwatarURL": "1542687023562958"
 }
 

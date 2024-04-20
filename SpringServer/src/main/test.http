@@ -2,8 +2,8 @@ POST http://localhost:8081/stories?userId=1
 Content-Type: application/json
 
 {
-  "id": 2,
-  "story": "Quick and croome"
+  "id": 7,
+  "story": "vkontakte"
 }
 
 
