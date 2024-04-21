@@ -25,6 +25,12 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Выбери фото и вставь его"
+        />
+
     <ImageView
         android:id="@+id/img_addFrag"
         android:layout_width="match_parent"
@@ -42,7 +48,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Добавить обложку"/>
 
     <FrameLayout
         android:id="@+id/fragment_container"
