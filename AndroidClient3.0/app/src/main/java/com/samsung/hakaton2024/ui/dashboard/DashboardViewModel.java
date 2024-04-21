@@ -1,14 +1,14 @@
-package com.samsung.hakaton2024.ui.search;
+package com.samsung.hakaton2024.ui.dashboard;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SearchViewModel extends ViewModel {
+public class DashboardViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public SearchViewModel() {
+    public DashboardViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is dashboard fragment");
     }
