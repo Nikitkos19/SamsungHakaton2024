@@ -9,11 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.viewpager2.adapter.FragmentStateAdapter;
-import androidx.viewpager2.widget.ViewPager2;
 
 import com.samsung.hakaton2024.databinding.FragmentHomeBinding;
-import com.samsung.hakaton2024.scroll_covers.MyAdapter;
 
 public class HomeFragment extends Fragment {
 
@@ -24,20 +21,11 @@ public class HomeFragment extends Fragment {
         HomeViewModel homeViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
 
-
-
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-
-        ViewPager2 pager = binding.pager;
-
-//        ViewPager2 pager = findViewById(R.id.pager);
-        FragmentStateAdapter pageAdapter = new MyAdapter(this);
-        pager.setAdapter(pageAdapter);
-//
-//        final TextView textView = binding.textHome;
-//        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textHome;
+        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
