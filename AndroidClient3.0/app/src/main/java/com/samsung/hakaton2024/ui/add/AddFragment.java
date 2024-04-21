@@ -80,6 +80,7 @@ public class AddFragment extends Fragment {
         assert data != null;
         Uri uri = data.getData();
         binding.imgAddFrag.setImageURI(uri);
+        binding.btnAddPhoto.setVisibility(View.INVISIBLE);
     }
 
     @Override

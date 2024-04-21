@@ -31,14 +31,6 @@
         android:text="Выбери фото и вставь его"
         />
 
-    <ImageView
-        android:id="@+id/img_addFrag"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_addPhoto"
@@ -50,6 +42,14 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         android:text="Добавить обложку"/>
+    <ImageView
+        android:id="@+id/img_addFrag"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <FrameLayout
         android:id="@+id/fragment_container"
